@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<!-- autocomplete.html-->
+<!--Creating a autocomplete form-->
+<html>
+  <head>
+<meta charset="utf-8">
+<title> Favourite Month Survey</title>
+</head>
+<body>
+
+<h3> Opinions Survey </h3> 
+<p> Please Enter your favourite Car Brand</p>
+
+<form action="http://www.deitel.com" method="POST">
+
+<!-- how to turn on autocomplete -->
+<form method = "post" autocomplete = "on">
+Choice: <input type="text" name="srch" id="srch" list="datalist1" />
+<datalist id="datalist1">
+ <option value="Alfa Romero">
+ <option value="Aston Martin">			<!-- inputs-->
+ <option value="Audi">
+ <option value="Bentley">
+ <option value="BMW">
+ <option value="Buick">
+ <option value="Cadillac">
+ <option value="Chevrolet">
+ <option value="Chrysler">
+ <option value="Ferrari">
+ <option value="Fiat">
+ <option value="Ford">
+<option value="GM">
+<option value="Honda">
+<option value="Hyundai">
+<option value="Infiniti">
+<option value="Jeep">
+<option value="Kia">
+<option value="Land Rover">
+<option value="Lexus">
+<option value="Mazda">
+<option value="Mercedes">
+<option value="Nissan">
+<option value="Mitsubishi">
+<option value="Peugeot">
+<option value="Ram">
+<option value="Subaru">
+<option value="Suzuki">
+<option value="Toyota">
+<option value="Volkswagen">
+<option value="Volvo">
+
+</datalist>
+<p></p>
+
+<input type="submit" name="submit" value="submit" />
+<input type="reset" value="reset" />
+</body>
+</html>
