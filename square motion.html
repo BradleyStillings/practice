@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Simple animation </title>
+<style type ="text/css">
+img
+{
+position: relative;
+-webkit-animation: movingSquare 10s infinite;
+-moz-animation: movingSquare 10s infinite;
+animation: movingSquare 10s infinite;
+}
+
+@-key-frames movingSquare 
+{
+0% {opacity: 1; left:0px; top: 0px;}
+25%{opacity: 1; left:500px; top: 0px;}
+50%{opacity: 1; left:500px; top: 200px;}
+75%{opacity: 1: left:0px: top: 200px;}
+100%{opacity: 1; left:0px; top: 0px;}
+}
+@-moz-keyframes movingSquare 
+{
+0% { left:0px; top: 0px;}
+25%{ left:200px; top: 0px;}
+50%{left:200px; top: 200px;}
+75%{left:0px: top: 200px;}
+100%{left:0px; top: 0px;}
+}
+
+</style>
+
+</head>
+<body>
+<p> Simple Square animation. </p> 
+
+<img src = "http://vignette3.wikia.nocookie.net/residentevil/images/f/f0/100px-Umbrella_Corporation_logo-1-.gif/revision/latest?cb=20080822144514"> 
+</body>
+</html>
