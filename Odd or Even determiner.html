@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--6.21: odd or even integer. -->
+<html>
+<head>
+<meta charset = "utf-8">
+<title>Integer Determiner</title>
+<script type = "text/javascript">
+
+//Display whether the integer is odd or even
+var numString;
+var numInteger;
+
+numString = window.prompt(" Enter an integer:", "0" ); //user prompt
+
+numInteger = parseInt( numString );
+
+if ((numInteger % 2 ) == 0) //if remainder is 0 when divided by 2
+document.writeln("<h2> The integer you entered is even</h2>");
+if ((numInteger % 2 ) != 0) // if the remainder is not 0 when divided by 2 
+document.writeln("<h2> The integer is odd</h2>");
+</script>
+
+</head><body></body>
+</html>
